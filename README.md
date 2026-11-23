@@ -8,9 +8,9 @@ Sum up 23 November's world news in one image: a program that draws a
 newspaper front page for Monday 23 November 2026 — COP31 collapsing in
 Antalya with no climate deal, Democrats clinching 258 House seats (the
 largest majority since 1992), Ukraine sinking the Russian corvette
-Merkury off Benghazi, 11 killed in a Russian strike on Dymer in the Kyiv
-region, and Anthropic's claim of a Riemann Hypothesis proof with Claude —
-as a single deterministic 1024×1024 PNG.
+Merkury off Benghazi, a boy pulled alive from the rubble in Dymer, and
+Anthropic's claim of a Riemann Hypothesis proof with Claude — as a single
+deterministic 1024x1024 PNG.
 
 ## Run it
 
@@ -20,7 +20,7 @@ python3 main.py
 
 Writes `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output/entry.png`).
 Pure Python standard library: no network, no fonts, no third-party
-packages. The rasterizer, the 5×7 bitmap font and the PNG encoder are all
+packages. The rasterizer, the 5x7 bitmap font and the PNG encoder are all
 in `main.py`, so two runs write byte-identical output.
 
 ## What's in the picture
@@ -33,12 +33,12 @@ in `main.py`, so two runs write byte-identical output.
 - **Libya:** Ukraine's sea drones sink the Russian corvette Merkury in
   Benghazi port, 2,400 km from the front; a Ka-27 helicopter is destroyed
   and the cargo ship MV Angara is hit.
-- **Ukraine:** a Russian strike flattens a five-storey block in Dymer,
+- **Ukraine:** a Russian drone flattens a five-storey block in Dymer,
   killing 11; rescuers pull seven-year-old Davyd alive after 14 hours
   under the rubble.
 - **Math – AI:** Anthropic's Levent Alpöge says he and Claude proved the
-  1859 Riemann Hypothesis in 175,187 Lean files — unverified, and a rival
-  human-written proof lands the same day.
+  1859 Riemann Hypothesis in 175,187 Lean files — the Lean community
+  certifies it, and the debate goes on.
 - **Also today:** the World Court's genocide ruling against Myanmar (9-6,
   first in 80 years), a factory fire in Banten, Indonesia killing 24,
   Liverpool 4-0 Manchester United, Delta delaying 1,000+ Atlanta flights,
